@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="examples.ExamplesTest" time="2.305" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="19"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/susi.handayani/process-order/karate/target/test-classes:/Users/susi.handayani/process-order/karate/target/classes:/Users/susi.handayani/.m2/repository/com/intuit/karate/karate-junit5/1.1.0/karate-junit5-1.1.0.jar:/Users/susi.handayani/.m2/repository/com/intuit/karate/karate-core/1.1.0/karate-core-1.1.0.jar:/Users/susi.handayani/.m2/repository/org/graalvm/js/js-scriptengine/21.2.0/js-scriptengine-21.2.0.jar:/Users/susi.handayani/.m2/repository/org/graalvm/sdk/graal-sdk/21.2.0/graal-sdk-21.2.0.jar:/Users/susi.handayani/.m2/repository/org/graalvm/js/js/21.2.0/js-21.2.0.jar:/Users/susi.handayani/.m2/repository/org/graalvm/regex/regex/21.2.0/regex-21.2.0.jar:/Users/susi.handayani/.m2/repository/org/graalvm/truffle/truffle-api/21.2.0/truffle-api-21.2.0.jar:/Users/susi.handayani/.m2/repository/com/ibm/icu/icu4j/69.1/icu4j-69.1.jar:/Users/susi.handayani/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/susi.handayani/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/susi.handayani/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/susi.handayani/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar:/Users/susi.handayani/.m2/repository/com/jayway/jsonpath/json-path/2.6.0/json-path-2.6.0.jar:/Users/susi.handayani/.m2/repository/net/minidev/json-smart/2.4.7/json-smart-2.4.7.jar:/Users/susi.handayani/.m2/repository/net/minidev/accessors-smart/2.4.7/accessors-smart-2.4.7.jar:/Users/susi.handayani/.m2/repository/org/ow2/asm/asm/9.1/asm-9.1.jar:/Users/susi.handayani/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/Users/susi.handayani/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/Users/susi.handayani/.m2/repository/org/yaml/snakeyaml/1.29/snakeyaml-1.29.jar:/Users/susi.handayani/.m2/repository/de/siegmar/fastcsv/2.0.0/fastcsv-2.0.0.jar:/Users/susi.handayani/.m2/repository/info/picocli/picocli/4.6.1/picocli-4.6.1.jar:/Users/susi.handayani/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.2/junit-jupiter-api-5.7.2.jar:/Users/susi.handayani/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/susi.handayani/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/susi.handayani/.m2/repository/org/junit/platform/junit-platform-commons/1.7.2/junit-platform-commons-1.7.2.jar:/Users/susi.handayani/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.2/junit-jupiter-engine-5.7.2.jar:/Users/susi.handayani/.m2/repository/org/junit/platform/junit-platform-engine/1.7.2/junit-platform-engine-1.7.2.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="karate.env" value="test"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ID"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/19.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/susi.handayani/process-order/karate/target/surefire/surefirebooter9685695620310648590.jar /Users/susi.handayani/process-order/karate/target/surefire 2023-04-10T00-29-29_840-jvmRun1 surefire17140312274400178919tmp surefire_02808988196749157177tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="ExamplesTest"/>
+    <property name="surefire.test.class.path" value="/Users/susi.handayani/process-order/karate/target/test-classes:/Users/susi.handayani/process-order/karate/target/classes:/Users/susi.handayani/.m2/repository/com/intuit/karate/karate-junit5/1.1.0/karate-junit5-1.1.0.jar:/Users/susi.handayani/.m2/repository/com/intuit/karate/karate-core/1.1.0/karate-core-1.1.0.jar:/Users/susi.handayani/.m2/repository/org/graalvm/js/js-scriptengine/21.2.0/js-scriptengine-21.2.0.jar:/Users/susi.handayani/.m2/repository/org/graalvm/sdk/graal-sdk/21.2.0/graal-sdk-21.2.0.jar:/Users/susi.handayani/.m2/repository/org/graalvm/js/js/21.2.0/js-21.2.0.jar:/Users/susi.handayani/.m2/repository/org/graalvm/regex/regex/21.2.0/regex-21.2.0.jar:/Users/susi.handayani/.m2/repository/org/graalvm/truffle/truffle-api/21.2.0/truffle-api-21.2.0.jar:/Users/susi.handayani/.m2/repository/com/ibm/icu/icu4j/69.1/icu4j-69.1.jar:/Users/susi.handayani/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/susi.handayani/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/susi.handayani/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/susi.handayani/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar:/Users/susi.handayani/.m2/repository/com/jayway/jsonpath/json-path/2.6.0/json-path-2.6.0.jar:/Users/susi.handayani/.m2/repository/net/minidev/json-smart/2.4.7/json-smart-2.4.7.jar:/Users/susi.handayani/.m2/repository/net/minidev/accessors-smart/2.4.7/accessors-smart-2.4.7.jar:/Users/susi.handayani/.m2/repository/org/ow2/asm/asm/9.1/asm-9.1.jar:/Users/susi.handayani/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/Users/susi.handayani/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/Users/susi.handayani/.m2/repository/org/yaml/snakeyaml/1.29/snakeyaml-1.29.jar:/Users/susi.handayani/.m2/repository/de/siegmar/fastcsv/2.0.0/fastcsv-2.0.0.jar:/Users/susi.handayani/.m2/repository/info/picocli/picocli/4.6.1/picocli-4.6.1.jar:/Users/susi.handayani/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.2/junit-jupiter-api-5.7.2.jar:/Users/susi.handayani/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/susi.handayani/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/susi.handayani/.m2/repository/org/junit/platform/junit-platform-commons/1.7.2/junit-platform-commons-1.7.2.jar:/Users/susi.handayani/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.2/junit-jupiter-engine-5.7.2.jar:/Users/susi.handayani/.m2/repository/org/junit/platform/junit-platform-engine/1.7.2/junit-platform-engine-1.7.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/susi.handayani"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/19.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/susi.handayani/process-order/karate"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="karate.options" value="/Users/susi.handayani/process-order/karate/src/test/java/examples/processOrders/verify-process-orders.feature"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/susi.handayani/process-order/karate/target/surefire/surefirebooter9685695620310648590.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="19.0.2"/>
+    <property name="user.name" value="susi.handayani"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.5.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/susi.handayani/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/p3/8bcrhj3j30nb3gz49yl_2mc00000gp/T/"/>
+    <property name="java.version" value="19.0.2"/>
+    <property name="user.dir" value="/Users/susi.handayani/process-order/karate"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/susi.handayani/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="19.0.2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="63.0"/>
+  </properties>
+  <testcase name="testParallel" classname="examples.ExamplesTest" time="2.301"/>
+</testsuite>

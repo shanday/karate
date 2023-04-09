@@ -1,0 +1,334 @@
+00:29:30.479 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': /Users/susi.handayani/process-order/karate/src/test/java/examples/processOrders/verify-process-orders.feature
+00:29:30.555 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': test
+00:29:30.815 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:29:31.483 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: test 
+00:29:31.483 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: test 
+00:29:31.483 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: test 
+00:29:31.483 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: test 
+00:29:31.483 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: test 
+00:29:31.565 [pool-1-thread-4] INFO  com.intuit.karate - [print] 71226 
+00:29:31.765 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:3000/processOrder/1000
+1 > Host: localhost:3000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:29:31.765 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:3000/processOrder
+1 > Host: localhost:3000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:29:31.765 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:3000/processOrder/1
+1 > Host: localhost:3000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:29:31.765 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:3000/processOrder/1
+1 > Host: localhost:3000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:29:31.766 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:3000/processOrder
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 133
+1 > Host: localhost:3000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"order_id":71226,"order_description":"Test Order","order_status":"New","last_updated_timestamp":1681061371574,"special_order":false}
+
+00:29:31.875 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 108
+1 < 200
+1 < X-Powered-By: Express
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 172
+1 < ETag: W/"ac-uDYaWJQ4VkkMPTnU0vBn56Fgzgw"
+1 < Date: Sun, 09 Apr 2023 17:29:31 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{
+  "order_id": 123456,
+  "order_description": "Test Order",
+  "order_status": "Processed",
+  "last_updated_timestamp": 1681061296617,
+  "special_order": false,
+  "id": 1
+}
+00:29:31.879 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 114
+1 < 200
+1 < X-Powered-By: Express
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 172
+1 < ETag: W/"ac-uDYaWJQ4VkkMPTnU0vBn56Fgzgw"
+1 < Date: Sun, 09 Apr 2023 17:29:31 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{
+  "order_id": 123456,
+  "order_description": "Test Order",
+  "order_status": "Processed",
+  "last_updated_timestamp": 1681061296617,
+  "special_order": false,
+  "id": 1
+}
+00:29:31.881 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 114
+1 < 201
+1 < X-Powered-By: Express
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: http://localhost:3000/processOrder/17
+1 < X-Content-Type-Options: nosniff
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 166
+1 < ETag: W/"a6-9RpQecisdmEU1sAvCeu1GDiit3o"
+1 < Date: Sun, 09 Apr 2023 17:29:31 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{
+  "order_id": 71226,
+  "order_description": "Test Order",
+  "order_status": "New",
+  "last_updated_timestamp": 1681061371574,
+  "special_order": false,
+  "id": 17
+}
+00:29:31.882 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 117
+1 < 404
+1 < X-Powered-By: Express
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 2
+1 < ETag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+1 < Date: Sun, 09 Apr 2023 17:29:31 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{}
+00:29:31.883 [pool-1-thread-4] INFO  com.intuit.karate - [print] created id is:  17 
+00:29:31.885 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+2 > GET http://localhost:3000/processOrder/17
+2 > Host: localhost:3000
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+00:29:31.902 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+2 > PUT http://localhost:3000/processOrder/1
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 140
+2 > Host: localhost:3000
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.2)
+2 > Accept-Encoding: gzip,deflate
+{"order_id":123456,"order_description":"Test Order","order_status":"Processed","last_updated_timestamp":1681061371890,"special_order":false}
+
+00:29:31.902 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 137
+1 < 200
+1 < X-Powered-By: Express
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Content-Type: application/json; charset=utf-8
+1 < ETag: W/"979-vPhqoCWZuJQWypCh1q328RfkvdA"
+1 < Date: Sun, 09 Apr 2023 17:29:31 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+1 < Transfer-Encoding: chunked
+[
+  {
+    "order_id": 123456,
+    "order_description": "Test Order",
+    "order_status": "Processed",
+    "last_updated_timestamp": 1681061296617,
+    "special_order": false,
+    "id": 1
+  },
+  {
+    "order_id": 123456,
+    "order_description": "description",
+    "order_status": "Processed",
+    "last_updated_timestamp": "1642321210439",
+    "special_order": false,
+    "id": 2
+  },
+  {
+    "order_status": "Processed",
+    "last_updated_timestamp": "1642321210439",
+    "id": 3
+  },
+  {
+    "id": 4
+  },
+  {
+    "id": 5
+  },
+  {
+    "id": 6
+  },
+  {
+    "id": 7
+  },
+  {
+    "order_id": 123456,
+    "order_description": "description",
+    "order_status": "Processed",
+    "last_updated_timestamp": "1642321210439",
+    "special_order": false,
+    "id": 8
+  },
+  {
+    "order_id": 123456,
+    "order_description": "description",
+    "order_status": "New",
+    "last_updated_timestamp": "1642321210439",
+    "special_order": false,
+    "id": 9
+  },
+  {
+    "order_id": 9611,
+    "order_description": "Test Order",
+    "order_status": "New",
+    "last_updated_timestamp": 1681053206416,
+    "special_order": false,
+    "id": 10
+  },
+  {
+    "order_id": 215331286,
+    "order_description": "Test Order",
+    "order_status": "New",
+    "last_updated_timestamp": 1681053269069,
+    "special_order": false,
+    "id": 11
+  },
+  {
+    "order_id": 69112,
+    "order_description": "Test Order",
+    "order_status": "New",
+    "last_updated_timestamp": 1681053361293,
+    "special_order": false,
+    "id": 12
+  },
+  {
+    "order_id": 93282,
+    "order_description": "Test Order",
+    "order_status": "New",
+    "last_updated_timestamp": 1681061204862,
+    "special_order": false,
+    "id": 13
+  },
+  {
+    "order_id": 79449,
+    "order_description": "Test Order",
+    "order_status": "New",
+    "last_updated_timestamp": 1681061222777,
+    "special_order": false,
+    "id": 14
+  },
+  {
+    "order_id": 23175,
+    "order_description": "Test Order",
+    "order_status": "New",
+    "last_updated_timestamp": 1681061269691,
+    "special_order": false,
+    "id": 15
+  },
+  {
+    "order_id": 17104,
+    "order_description": "Test Order",
+    "order_status": "New",
+    "last_updated_timestamp": 1681061296345,
+    "special_order": false,
+    "id": 16
+  },
+  {
+    "order_id": 71226,
+    "order_description": "Test Order",
+    "order_status": "New",
+    "last_updated_timestamp": 1681061371574,
+    "special_order": false,
+    "id": 17
+  }
+]
+00:29:31.920 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 35
+2 < 200
+2 < X-Powered-By: Express
+2 < Vary: Origin, Accept-Encoding
+2 < Access-Control-Allow-Credentials: true
+2 < Cache-Control: no-cache
+2 < Pragma: no-cache
+2 < Expires: -1
+2 < X-Content-Type-Options: nosniff
+2 < Content-Type: application/json; charset=utf-8
+2 < Content-Length: 166
+2 < ETag: W/"a6-9RpQecisdmEU1sAvCeu1GDiit3o"
+2 < Date: Sun, 09 Apr 2023 17:29:31 GMT
+2 < Connection: keep-alive
+2 < Keep-Alive: timeout=5
+{
+  "order_id": 71226,
+  "order_description": "Test Order",
+  "order_status": "New",
+  "last_updated_timestamp": 1681061371574,
+  "special_order": false,
+  "id": 17
+}
+00:29:31.933 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 30
+2 < 200
+2 < X-Powered-By: Express
+2 < Vary: Origin, Accept-Encoding
+2 < Access-Control-Allow-Credentials: true
+2 < Cache-Control: no-cache
+2 < Pragma: no-cache
+2 < Expires: -1
+2 < X-Content-Type-Options: nosniff
+2 < Content-Type: application/json; charset=utf-8
+2 < Content-Length: 172
+2 < ETag: W/"ac-J0NuUYry1NmCejslsv2IH+RXTjE"
+2 < Date: Sun, 09 Apr 2023 17:29:31 GMT
+2 < Connection: keep-alive
+2 < Keep-Alive: timeout=5
+{
+  "order_id": 123456,
+  "order_description": "Test Order",
+  "order_status": "Processed",
+  "last_updated_timestamp": 1681061371890,
+  "special_order": false,
+  "id": 1
+}
+00:29:32.542 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/examples/processOrders/verify-process-orders.feature

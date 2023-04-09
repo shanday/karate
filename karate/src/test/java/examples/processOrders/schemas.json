@@ -1,0 +1,8 @@
+{
+    "order_id": "#number",
+    "order_description": "#string",
+    "order_status": "#string",
+    "last_updated_timestamp": "#number",
+    "special_order": "#boolean",
+    "id": "#number"
+}
