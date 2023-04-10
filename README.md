@@ -17,7 +17,7 @@ To use this framework, you will need to have the following tools and software in
   1. Extension Pack for Java https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
   2. Karate Runner https://marketplace.visualstudio.com/items?itemName=kirkslota.karate-runner
   3. Cucumber (Gherkin) Full Support https://marketplace.visualstudio.com/items?itemName=alexkrechik.cucumberautocomplete
-
+- Local json-server
 
 
 
